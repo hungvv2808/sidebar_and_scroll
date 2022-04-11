@@ -1,0 +1,763 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo sidebar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+          <a class="navbar-brand" href="#">Parker</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#categories">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#customers">Customer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#orders">Orders</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row content">
+        <div class="col-2 content-left">
+          <div class="sidebar sidebar-left">
+            <a href="#home">
+              <ion-icon name="prism-outline"></ion-icon><span>Home</span>
+            </a>
+            <a href="#categories">
+              <ion-icon name="pulse-outline"></ion-icon><span>Categories</span>
+            </a>
+            <a href="#products">
+              <ion-icon name="push-outline"></ion-icon><span>Products</span>
+            </a>
+            <a href="#customers"
+              ><ion-icon name="qr-code-outline"></ion-icon
+              ><span>Customers</span></a
+            >
+            <a href="#orders">
+              <ion-icon name="radio-outline"></ion-icon><span>Orders</span>
+            </a>
+            <a href="#quite">
+              <ion-icon name="radio-button-off-outline"></ion-icon
+              ><span>Quit</span>
+            </a>
+            <a type="button" class="dropdown-btn">
+              <ion-icon
+                name="caret-forward-outline"
+                class="icon-forward"
+              ></ion-icon>
+              <ion-icon name="caret-down-outline" class="icon-down"></ion-icon>
+              <span>Extend</span>
+            </a>
+            <div class="dropdown-container">
+              <a href="#"
+                ><ion-icon name="chatbox-outline"></ion-icon
+                ><span>Extend 1</span></a
+              >
+              <a href="#"
+                ><ion-icon name="checkmark-done-circle-outline"></ion-icon
+                ><span>Extend 2</span></a
+              >
+              <a href="#"
+                ><ion-icon name="clipboard-outline"></ion-icon
+                ><span>Extend 3</span></a
+              >
+            </div>
+            <a href="#">
+              <ion-icon name="cloudy-outline"></ion-icon><span>Cloud</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="row content-middle">
+            <h1>Home</h1>
+            <div id="home1" class="content-middle--content">
+              <h3>Home 1 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="home2" class="content-middle--content">
+              <h3>Home 2 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="home3" class="content-middle--content">
+              <h3>Home 3 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="home4" class="content-middle--content">
+              <h3>Home 4 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <h1>Categories</h1>
+            <div id="categories1" class="content-middle--content">
+              <h3>Categories 1 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="categories2" class="content-middle--content">
+              <h3>Categories 2 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="categories3" class="content-middle--content">
+              <h3>Categories 3 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="categories4" class="content-middle--content">
+              <h3>Categories 4 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <h1>Products</h1>
+            <div id="products1" class="content-middle--content">
+              <h3>Products 1 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="products2" class="content-middle--content">
+              <h3>Products 2 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="products3" class="content-middle--content">
+              <h3>Products 3 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="products4" class="content-middle--content">
+              <h3>Products 4 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <h1>Customers</h1>
+            <div id="customers1" class="content-middle--content">
+              <h3>Customers 1 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="customers2" class="content-middle--content">
+              <h3>Customers 2 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="customers3" class="content-middle--content">
+              <h3>Customers 3 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="customers4" class="content-middle--content">
+              <h3>Customers 4 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <h1>Orders</h1>
+            <div id="orders1" class="content-middle--content">
+              <h3>Orders 1 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="orders2" class="content-middle--content">
+              <h3>Orders 2 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="orders3" class="content-middle--content">
+              <h3>Orders 3 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+            <div id="orders4" class="content-middle--content">
+              <h3>Orders 4 data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus possimus tempore illo tenetur temporibus nostrum.
+                Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+                doloremque neque. Debitis sunt explicabo nemo beatae?
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <h1>Out of footer 1</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus possimus tempore illo tenetur temporibus nostrum.
+              Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+              doloremque neque. Debitis sunt explicabo nemo beatae?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus possimus tempore illo tenetur temporibus nostrum.
+              Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+              doloremque neque. Debitis sunt explicabo nemo beatae?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus possimus tempore illo tenetur temporibus nostrum.
+              Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+              doloremque neque. Debitis sunt explicabo nemo beatae?
+            </p>
+            <h1>Out of footer 2</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus possimus tempore illo tenetur temporibus nostrum.
+              Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+              doloremque neque. Debitis sunt explicabo nemo beatae?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus possimus tempore illo tenetur temporibus nostrum.
+              Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+              doloremque neque. Debitis sunt explicabo nemo beatae?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus possimus tempore illo tenetur temporibus nostrum.
+              Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+              doloremque neque. Debitis sunt explicabo nemo beatae?
+            </p>
+            <h1>Out of footer 3</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus possimus tempore illo tenetur temporibus nostrum.
+              Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+              doloremque neque. Debitis sunt explicabo nemo beatae?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus possimus tempore illo tenetur temporibus nostrum.
+              Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+              doloremque neque. Debitis sunt explicabo nemo beatae?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus possimus tempore illo tenetur temporibus nostrum.
+              Dignissimos aperiam odio at necessitatibus quod sequi, debitis
+              doloremque neque. Debitis sunt explicabo nemo beatae?
+            </p>
+          </div>
+        </div>
+        <div class="col-2 content-right">
+          <div class="sidebar sidebar-right">
+            <a type="button" class="dropdown-btn">
+              <ion-icon
+                name="caret-forward-outline"
+                class="icon-forward"
+              ></ion-icon>
+              <ion-icon name="caret-down-outline" class="icon-down"></ion-icon>
+              <span>Home</span>
+            </a>
+            <div class="dropdown-container">
+              <a href="#home1"
+                ><ion-icon name="chatbox-outline"></ion-icon
+                ><span>Home 1</span></a
+              >
+              <a href="#home2"
+                ><ion-icon name="checkmark-done-circle-outline"></ion-icon
+                ><span>Home 2</span></a
+              >
+              <a href="#home3"
+                ><ion-icon name="clipboard-outline"></ion-icon
+                ><span>Home 3</span></a
+              >
+              <a href="#home4"
+                ><ion-icon name="clipboard-outline"></ion-icon
+                ><span>Home 4</span></a
+              >
+            </div>
+            <a type="button" class="dropdown-btn">
+              <ion-icon
+                name="caret-forward-outline"
+                class="icon-forward"
+              ></ion-icon>
+              <ion-icon name="caret-down-outline" class="icon-down"></ion-icon>
+              <span>Categories</span>
+            </a>
+            <div class="dropdown-container">
+              <a href="#categories1"
+                ><ion-icon name="chatbox-outline"></ion-icon
+                ><span>Categories 1</span></a
+              >
+              <a href="#categories2"
+                ><ion-icon name="checkmark-done-circle-outline"></ion-icon
+                ><span>Categories 2</span></a
+              >
+              <a href="#categories3"
+                ><ion-icon name="clipboard-outline"></ion-icon
+                ><span>Categories 3</span></a
+              >
+              <a href="#categories4"
+                ><ion-icon name="clipboard-outline"></ion-icon
+                ><span>Categories 4</span></a
+              >
+            </div>
+            <a type="button" class="dropdown-btn">
+              <ion-icon
+                name="caret-forward-outline"
+                class="icon-forward"
+              ></ion-icon>
+              <ion-icon name="caret-down-outline" class="icon-down"></ion-icon>
+              <span>Products</span>
+            </a>
+            <div class="dropdown-container">
+              <a href="#products1"
+                ><ion-icon name="chatbox-outline"></ion-icon
+                ><span>Products 1</span></a
+              >
+              <a href="#products2"
+                ><ion-icon name="checkmark-done-circle-outline"></ion-icon
+                ><span>Products 2</span></a
+              >
+              <a href="#products3"
+                ><ion-icon name="clipboard-outline"></ion-icon
+                ><span>Products 3</span></a
+              >
+              <a href="#products4"
+                ><ion-icon name="clipboard-outline"></ion-icon
+                ><span>Products 4</span></a
+              >
+            </div>
+            <a type="button" class="dropdown-btn">
+              <ion-icon
+                name="caret-forward-outline"
+                class="icon-forward"
+              ></ion-icon>
+              <ion-icon name="caret-down-outline" class="icon-down"></ion-icon>
+              <span>Customers</span>
+            </a>
+            <div class="dropdown-container">
+              <a href="#customers1"
+                ><ion-icon name="chatbox-outline"></ion-icon
+                ><span>Customers 1</span></a
+              >
+              <a href="#customers2"
+                ><ion-icon name="checkmark-done-circle-outline"></ion-icon
+                ><span>Customers 2</span></a
+              >
+              <a href="#customers3"
+                ><ion-icon name="clipboard-outline"></ion-icon
+                ><span>Customers 3</span></a
+              >
+              <a href="#customers4"
+                ><ion-icon name="clipboard-outline"></ion-icon
+                ><span>Customers 4</span></a
+              >
+            </div>
+            <a type="button" class="dropdown-btn">
+              <ion-icon
+                name="caret-forward-outline"
+                class="icon-forward"
+              ></ion-icon>
+              <ion-icon name="caret-down-outline" class="icon-down"></ion-icon>
+              <span>Orders</span>
+            </a>
+            <div class="dropdown-container">
+              <a href="#orders1"
+                ><ion-icon name="chatbox-outline"></ion-icon
+                ><span>Orders 1</span></a
+              >
+              <a href="#orders2"
+                ><ion-icon name="checkmark-done-circle-outline"></ion-icon
+                ><span>Orders 2</span></a
+              >
+              <a href="#orders3"
+                ><ion-icon name="clipboard-outline"></ion-icon
+                ><span>Orders 3</span></a
+              >
+              <a href="#orders4"
+                ><ion-icon name="clipboard-outline"></ion-icon
+                ><span>Orders 4</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <footer class="row footer">
+        <span>
+          Design by &#169;Parker,
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </span>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

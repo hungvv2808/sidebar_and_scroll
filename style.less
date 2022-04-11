@@ -1,0 +1,146 @@
+@white: #fff;
+@red: rgb(195, 8, 8);
+@blue: #07b1ca;
+@orange: #fa800a;
+@green: #1cf203;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}
+
+.header {
+  background-color: @blue;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.content {
+  margin-top: 7vh;
+}
+
+.footer {
+  background-color: @orange;
+  color: @white;
+  margin-top: 0.5rem;
+  span {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+  }
+}
+
+.navbar {
+  margin-left: 20vw;
+}
+
+.bg-custom {
+  background-color: @blue;
+  .navbar-brand {
+    color: @white !important;
+  }
+  .navbar-nav {
+    .nav-link,
+    .active > .nav-link {
+      color: @white !important;
+      &:hover {
+        color: @green !important;
+      }
+    }
+  }
+}
+
+.sidebar {
+  padding: 1rem;
+  .dropdown-container {
+    a {
+      padding-left: 1.5vw !important;
+    }
+  }
+  &.sidebar-left,
+  &.sidebar-right {
+    padding-top: 0;
+    padding-left: 0;
+    a,
+    a:not([href]):not([tabindex]) {
+      display: block;
+      padding: 0.5rem;
+      color: @blue;
+
+      &:hover,
+      &:focus {
+        color: @orange;
+        text-decoration: underline;
+      }
+
+      &.active {
+        color: @orange;
+      }
+
+      ion-icon {
+        padding-right: 1rem;
+        padding-top: 5px;
+      }
+    }
+  }
+  &.sidebar-left {
+    position: fixed;
+    a,
+    a:not([href]):not([tabindex]) {
+      &.active {
+        border-right: 2px solid @green;
+      }
+    }
+  }
+  &.sidebar-right {
+    width: 20vw;
+    position: fixed;
+    a,
+    a:not([href]):not([tabindex]) {
+      &.active {
+        border-left: 2px solid @green;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    margin-left: 3vw;
+    .navbar-toggler {
+      background-color: @orange;
+      border: 1px solid @orange;
+      position: absolute;
+      left: 15vw;
+      top: 8px;
+      .navbar-toggler-icon {
+        background-color: @orange;
+      }
+    }
+  }
+  .content {
+    margin-top: 5vh;
+    .content-left {
+      left: -6vw;
+      .sidebar {
+        &.sidebar-left {
+          width: 20vw;
+        }
+      }
+    }
+  }
+}

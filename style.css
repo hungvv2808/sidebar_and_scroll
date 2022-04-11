@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.width-100 {
+  width: 100%;
+}
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}
+.header {
+  background-color: #07b1ca;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.content {
+  margin-top: 7vh;
+}
+.footer {
+  background-color: #fa800a;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+.footer span {
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+}
+.navbar {
+  margin-left: 20vw;
+}
+.bg-custom {
+  background-color: #07b1ca;
+}
+.bg-custom .navbar-brand {
+  color: #fff !important;
+}
+.bg-custom .navbar-nav .nav-link,
+.bg-custom .navbar-nav .active > .nav-link {
+  color: #fff !important;
+}
+.bg-custom .navbar-nav .nav-link:hover,
+.bg-custom .navbar-nav .active > .nav-link:hover {
+  color: #1cf203 !important;
+}
+.sidebar {
+  padding: 1rem;
+}
+.sidebar .dropdown-container a {
+  padding-left: 1.5vw !important;
+}
+.sidebar.sidebar-left,
+.sidebar.sidebar-right {
+  padding-top: 0;
+  padding-left: 0;
+}
+.sidebar.sidebar-left a,
+.sidebar.sidebar-right a,
+.sidebar.sidebar-left a:not([href]):not([tabindex]),
+.sidebar.sidebar-right a:not([href]):not([tabindex]) {
+  display: block;
+  padding: 0.5rem;
+  color: #07b1ca;
+}
+.sidebar.sidebar-left a:hover,
+.sidebar.sidebar-right a:hover,
+.sidebar.sidebar-left a:not([href]):not([tabindex]):hover,
+.sidebar.sidebar-right a:not([href]):not([tabindex]):hover,
+.sidebar.sidebar-left a:focus,
+.sidebar.sidebar-right a:focus,
+.sidebar.sidebar-left a:not([href]):not([tabindex]):focus,
+.sidebar.sidebar-right a:not([href]):not([tabindex]):focus {
+  color: #fa800a;
+  text-decoration: underline;
+}
+.sidebar.sidebar-left a.active,
+.sidebar.sidebar-right a.active,
+.sidebar.sidebar-left a:not([href]):not([tabindex]).active,
+.sidebar.sidebar-right a:not([href]):not([tabindex]).active {
+  color: #fa800a;
+}
+.sidebar.sidebar-left a ion-icon,
+.sidebar.sidebar-right a ion-icon,
+.sidebar.sidebar-left a:not([href]):not([tabindex]) ion-icon,
+.sidebar.sidebar-right a:not([href]):not([tabindex]) ion-icon {
+  padding-right: 1rem;
+  padding-top: 5px;
+}
+.sidebar.sidebar-left {
+  position: fixed;
+}
+.sidebar.sidebar-left a.active,
+.sidebar.sidebar-left a:not([href]):not([tabindex]).active {
+  border-right: 2px solid #1cf203;
+}
+.sidebar.sidebar-right {
+  width: 20vw;
+  position: fixed;
+}
+.sidebar.sidebar-right a.active,
+.sidebar.sidebar-right a:not([href]):not([tabindex]).active {
+  border-left: 2px solid #1cf203;
+}
+@media screen and (max-width: 1024px) {
+  .navbar {
+    margin-left: 3vw;
+  }
+  .navbar .navbar-toggler {
+    background-color: #fa800a;
+    border: 1px solid #fa800a;
+    position: absolute;
+    left: 15vw;
+    top: 8px;
+  }
+  .navbar .navbar-toggler .navbar-toggler-icon {
+    background-color: #fa800a;
+  }
+  .content {
+    margin-top: 5vh;
+  }
+  .content .content-left {
+    left: -6vw;
+  }
+  .content .content-left .sidebar.sidebar-left {
+    width: 20vw;
+  }
+}
